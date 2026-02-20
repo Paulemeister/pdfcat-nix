@@ -16,9 +16,27 @@
         "type": "github"
       }
     },
+    "pdfcat-src": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1771433458,
+        "narHash": "sha256-LrQNj0bXl5fDLQr9z/AA51NzZGEfflccXMU6yZE44qQ=",
+        "owner": "pdfcat",
+        "repo": "pdfcat",
+        "rev": "f376bd4c7cfd7b73f242c30b410390c467822a16",
+        "type": "github"
+      },
+      "original": {
+        "owner": "pdfcat",
+        "ref": "main",
+        "repo": "pdfcat",
+        "type": "github"
+      }
+    },
     "root": {
       "inputs": {
-        "nixpkgs": "nixpkgs"
+        "nixpkgs": "nixpkgs",
+        "pdfcat-src": "pdfcat-src"
       }
     }
   },
