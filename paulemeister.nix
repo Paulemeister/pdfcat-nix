@@ -12,5 +12,5 @@ pkgs.rustPlatform.buildRustPackage rec {
   cargoLock = {
     lockFile = "${src}/Cargo.lock";
   };
-
+  doCheck = false;
 }

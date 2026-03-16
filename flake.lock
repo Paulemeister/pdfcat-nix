@@ -16,6 +16,23 @@
         "type": "github"
       }
     },
+    "pdfcat-paulemeister-src": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1773702253,
+        "narHash": "sha256-WJ217TrQWIKEyeJTK0axcd4KkGE9ceB2cCti8nNGjHI=",
+        "owner": "Paulemeister",
+        "repo": "pdfcat",
+        "rev": "126bb0ceec8f554cd74ee71ec2d83b000a27f603",
+        "type": "github"
+      },
+      "original": {
+        "owner": "Paulemeister",
+        "ref": "dev",
+        "repo": "pdfcat",
+        "type": "github"
+      }
+    },
     "pdfcat-src": {
       "flake": false,
       "locked": {
@@ -36,6 +53,7 @@
     "root": {
       "inputs": {
         "nixpkgs": "nixpkgs",
+        "pdfcat-paulemeister-src": "pdfcat-paulemeister-src",
         "pdfcat-src": "pdfcat-src"
       }
     }
