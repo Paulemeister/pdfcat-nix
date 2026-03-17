@@ -19,11 +19,11 @@
     "pdfcat-paulemeister-src": {
       "flake": false,
       "locked": {
-        "lastModified": 1773702253,
-        "narHash": "sha256-WJ217TrQWIKEyeJTK0axcd4KkGE9ceB2cCti8nNGjHI=",
+        "lastModified": 1773778241,
+        "narHash": "sha256-d/T/1v3sQ52CrSv3sdaIeAMEnETYZb6Ra71WViUp02Q=",
         "owner": "Paulemeister",
         "repo": "pdfcat",
-        "rev": "126bb0ceec8f554cd74ee71ec2d83b000a27f603",
+        "rev": "e1583cedc504ae0e3706a6bb24393e29885bc9c1",
         "type": "github"
       },
       "original": {
